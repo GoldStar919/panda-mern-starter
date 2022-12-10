@@ -41,6 +41,7 @@ class Todo extends Component {
 
     return (
       <div>
+        <h1>MERN for starter.</h1>
         <h1>My Todo(s)</h1>
         <Input getTodos={this.getTodos} />
         <ListTodo todos={todos} deleteTodo={this.deleteTodo} />
