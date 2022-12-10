@@ -2,6 +2,8 @@ const express = require("express");
 const router = express.Router();
 const Todo = require("../models/todo");
 
+// help      https://www.mongodb.com/languages/mern-stack-tutorial
+
 router.get("/todos", (req, res, next) => {
   // This will return all the data, exposing only the id and action field to the client
   Todo.find({}, "action")
