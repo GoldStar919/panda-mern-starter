@@ -1,11 +1,11 @@
 import React from "react";
-import Todo from "./components/Todo";
 import "./App.css";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <div className="App">
-      <Todo />
+      <Home />
     </div>
   );
 };
